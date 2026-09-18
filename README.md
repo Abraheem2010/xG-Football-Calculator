@@ -2,6 +2,10 @@
 
 A machine learning project that predicts the **Expected Goals (xG)** probability for any football shot, trained on real data from the **2022 FIFA World Cup**.
 
+**▶ Try it live: https://xg-football-calculator-fhx55bkhxtwh3bp4gvqtie.streamlit.app**
+
+Move the shot around the pitch and watch the prediction update.
+
 ![xG Calculator App](figures/messi_shot_map.png)
 
 ---
