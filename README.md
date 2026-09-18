@@ -80,8 +80,11 @@ source .venv/bin/activate
 
 ### 3. Install dependencies
 ```bash
-pip install pandas numpy scikit-learn matplotlib mplsoccer statsbombpy joblib streamlit
+pip install -r requirements.txt
 ```
+
+> `scikit-learn` is pinned to 1.8.0 — the saved model (`model/xg_model.pkl`) was trained with that
+> version and newer releases cannot load it.
 
 ### 4. Run the web app
 ```bash

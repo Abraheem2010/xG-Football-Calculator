@@ -1,0 +1,10 @@
+# scikit-learn is pinned: model/xg_model.pkl was trained and saved with 1.8.0,
+# and newer versions cannot unpickle it.
+scikit-learn==1.8.0
+streamlit
+pandas
+numpy
+matplotlib
+mplsoccer
+joblib
+statsbombpy
